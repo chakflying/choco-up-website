@@ -41,3 +41,4 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - Since other pages are not implemented, all linkes have a placeholder `#`. They will need to be replaced with appropriate links for a real project.
 - Navbar menu items are hard coded since they would not change for this demo. If the items would change offen, this might better be extracted as a seperate data structure.
 - Icons like country flags and social media are loaded as static image files, since the number of icons used in the homepage is relatively small. If more icons are neeeded, it might be better to use an icon library.
+- A deployment solution is not configured. Depending on whether static-site generation or server-side rendering is used, some modification may be needed before deploying the website.
