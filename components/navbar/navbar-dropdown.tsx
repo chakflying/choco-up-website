@@ -5,6 +5,9 @@ import { useState } from "react";
 
 /**
  * navbar dropdown, toggles on hover
+ * @param {any} props - component props
+ * @param {React.JSX.Element} props.summary - The heading of the dropdown
+ * @param {React.JSX.Element} props.children - The contents of the dropdown
  * @returns {React.JSX.Element}
  */
 export default function NavbarDropdown({

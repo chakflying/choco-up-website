@@ -1,8 +1,11 @@
-import Image from "next/image";
 import type React from "react";
 
 /**
  * Success point item
+ * @param {any} props - component props
+ * @param {string} props.number - The ordering number of the point
+ * @param {React.JSX.Element} props.heading - The heading of the point
+ * @param {React.JSX.Element} props.children - The content of the point
  * @returns {React.JSX.Element}
  */
 export default function Point({ number, heading, children }: { number: string, heading: React.JSX.Element, children: React.JSX.Element }) {

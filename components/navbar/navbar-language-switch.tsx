@@ -4,6 +4,7 @@ import NavbarDropdown from "./navbar-dropdown";
 
 /**
  * Navbar Language Switcher
+ * Functionality not yet implemented
  * @returns {React.JSX.Element}
  */
 export default function NavbarLanguageSwitch() {

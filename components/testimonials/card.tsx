@@ -3,6 +3,8 @@ import type React from "react";
 
 /**
  * Carousel Card
+ * @param {any} props - component props
+ * @param {{ id: number, image: string, firstName: string, lastName: string, email: string, address: { address: string } }} props.user - The user data
  * @returns {React.JSX.Element}
  */
 export default function Card({ user }: { user: { id: number, image: string, firstName: string, lastName: string, email: string, address: { address: string } } }) {

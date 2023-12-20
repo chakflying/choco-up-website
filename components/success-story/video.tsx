@@ -5,6 +5,10 @@ import type React from "react";
 
 /**
  * Popup Video
+ * @param {any} props - component props
+ * @param {string} props.id - The html id of the dialog
+ * @param {string} props.preview - The url of the preview image
+ * @param {string} props.src - The source url of the video
  * @returns {React.JSX.Element}
  */
 export default function Video({ id, preview, src }: { id: string, preview: string, src: string }) {

@@ -3,6 +3,8 @@ import type React from "react";
 
 /**
  * Growth section
+ * @param {any} props - component props
+ * @param {React.JSX.Element} props.children - Content of the list item
  * @returns {React.JSX.Element}
  */
 export default function GrowthListItem({ children }: { children: React.JSX.Element; }) {

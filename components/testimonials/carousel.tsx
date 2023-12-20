@@ -9,6 +9,8 @@ import Card from "@/components/testimonials/card";
 
 /**
  * Testimonials carousel
+ * @param {any} props - component props
+ * @param {Array<object>} props.items - The items to display
  * @returns {React.JSX.Element}
  */
 export default function Carousel({ items }: { items: Array<{ id: number, image: string, firstName: string, lastName: string, email: string, address: { address: string } }> }) {

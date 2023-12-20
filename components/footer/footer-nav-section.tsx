@@ -2,6 +2,9 @@ import type React from "react";
 
 /**
  * A Section of the Footer Navigation Links
+ * @param {any} props - component props
+ * @param {React.JSX.Element} props.heading - The heading of the section
+ * @param {Array<{ name: string, href: string }>} props.links - The links in the section
  * @returns {React.JSX.Element}
  */
 export default function FooterNavSection({ heading, links }: { heading: React.JSX.Element, links: Array<{ name: string, href: string }> }) {
